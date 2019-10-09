@@ -111,8 +111,8 @@ switch _weaponPool do {
 			format["arifle_ARX_%1_F",selectRandom["blk","ghex","hex"]],
 			format["arifle_msbs65_%1_f",selectRandom["black","camo","sand"]], // Contact DLC - Promet 6.5mm
 			"arifle_MSBS65_UBS_F",
-			"arifle_AK12U_F",
-			format["arifle_RPK12_%1_F"],selectRandom["arid","lush"]
+			"arifle_AK12U_F"
+			
 		],
 		[ // Snpiners
 			"srifle_GM6_ghex_F",
@@ -129,7 +129,8 @@ switch _weaponPool do {
 			"LMG_03_F",
 			"arifle_MX_SW_khk_F",
 			format["MMG_01_%1_F",selectRandom["hex","tan","black"]],
-			format["MMG_02_%1_F",selectRandom["camo","sand"]]
+			format["MMG_02_%1_F",selectRandom["camo","sand"]],
+			format["arifle_RPK12_%1_F",selectRandom["arid","lush"]]
 		],
 		[ // Pistiol / Handguns
 			"hgun_P07_khk_F", // only two dlc pistols
