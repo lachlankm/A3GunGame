@@ -111,7 +111,8 @@ switch _weaponPool do {
 			format["arifle_ARX_%1_F",selectRandom["blk","ghex","hex"]],
 			format["arifle_msbs65_%1_f",selectRandom["black","camo","sand"]], // Contact DLC - Promet 6.5mm
 			"arifle_MSBS65_UBS_F",
-			"arifle_AK12U_F"
+			"arifle_AK12U_F",
+			format["arifle_RPK12_%1_F"],selectRandom["arid","lush"]
 		],
 		[ // Snpiners
 			"srifle_GM6_ghex_F",
