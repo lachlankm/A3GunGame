@@ -28,7 +28,8 @@ private _weaponPool = if (_paramValue == 0) then {
 		case "Stratis":{VANILLA};
 
 		// Vanilla (DLC)
-		case "Tanoa":{VANILLA_DLC};
+		case "Tanoa";
+		case "Enoch":{VANILLA_DLC}; // Livonia
 
 		// CUP 
 		case "zargabad";
@@ -94,20 +95,21 @@ switch _weaponPool do {
 	case VANILLA_DLC:{[
 		2,
 		{true}, // Pretty sure you can use DLC weapons with a watermark so no need to kick for it 
-		[
+		[ // SMG's
 			"SMG_05_F", // Only DLC weapon in the SMG section
 			"SMG_01_F",
 			"SMG_02_F",
 			format["SMG_03%1%2_%3",selectRandom["","C"],selectRandom["","_TR"],selectRandom["black","camo","hex","khaki"]]
 		],
-		[
+		[ // Assault Rifles
 			format["arifle_AK%1_F",selectRandom[12,"M","S"]],
 			format["arifle_CTAR_%1_F",selectRandom["blk","ghex","hex"]],
 			format["arifle_MX%1_khk_F",selectRandom["","C","M"]],
 			format["arifle_SPAR_0%1_%2_F",selectRandom[1,3],selectRandom["blk","khk","snd"]],
-			format["arifle_ARX_%1_F",selectRandom["blk","ghex","hex"]]
+			format["arifle_ARX_%1_F",selectRandom["blk","ghex","hex"]],
+			format["arifle_msbs65_%1_f",selectRandom["black","camo","sand"]] // Contact DLC - Promet 6.5mm
 		],
-		[
+		[ // Snpiners
 			"srifle_GM6_ghex_F",
 			"srifle_LRR_tna_F",
 			format["srifle_DMR_04%1_F",selectRandom["","_Tan"]],
@@ -115,15 +117,16 @@ switch _weaponPool do {
 			format["srifle_DMR_05_%1_F",selectRandom["blk","hex","tan"]],
 			format["srifle_DMR_02%1_F",selectRandom["","_camo","_sniper"]],
 			format["srifle_DMR_03%1_F",selectRandom["","_multicam","_khaki","_tan","_woodland"]],
-			format["srifle_DMR_06%1_F",selectRandom["_camo","_olive"]]
+			format["srifle_DMR_06%1_F",selectRandom["_camo","_olive"]],
+			format["arifle_msbs65_mark_%1_f"selectRandom["black","camo","sand"]]
 		],
-		[
+		[ // LMGs
 			"LMG_03_F",
 			"arifle_MX_SW_khk_F",
 			format["MMG_01_%1_F",selectRandom["hex","tan","black"]],
 			format["MMG_02_%1_F",selectRandom["camo","sand"]]
 		],
-		[
+		[ // Pistiol / Handguns
 			"hgun_P07_khk_F", // only two dlc pistols
 			"hgun_Pistol_01_F", // only two dlc pistols
 			"hgun_Rook40_F",

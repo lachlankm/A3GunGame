@@ -12,9 +12,11 @@
 	case "Altis";
 	case "Malden";
 	case "Stratis":{[6,5,17]};
+	
 
 	// Vanilla (DLC)
 	case "Tanoa":{[2,6,19]};
+	case "Enoch":{[6,1]};
 
 	// CUP 
 	case "zargabad";

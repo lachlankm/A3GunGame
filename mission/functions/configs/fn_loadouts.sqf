@@ -34,7 +34,8 @@ private _loadout = if (_paramValue == 0) then {
 		case "Stratis":{VANILLA};
 
 		// Vanilla (DLC)
-		case "Tanoa":{VANILLA_DLC};
+		case "Tanoa";
+		case "Enoch":{VANILLA_DLC}; // Livonia
 
 		// CUP 
 		case "sara";
