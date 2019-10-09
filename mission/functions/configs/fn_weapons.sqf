@@ -99,7 +99,9 @@ switch _weaponPool do {
 			"SMG_05_F", // Only DLC weapon in the SMG section
 			"SMG_01_F",
 			"SMG_02_F",
-			format["SMG_03%1%2_%3",selectRandom["","C"],selectRandom["","_TR"],selectRandom["black","camo","hex","khaki"]]
+			format["SMG_03%1%2_%3",selectRandom["","C"],selectRandom["","_TR"],selectRandom["black","camo","hex","khaki"]],
+			"sgun_huntershotgun_01_f",
+			"sgun_huntershotgun_01_sawedoff_f"
 		],
 		[ // Assault Rifles
 			format["arifle_AK%1_F",selectRandom[12,"M","S"]],
@@ -107,7 +109,9 @@ switch _weaponPool do {
 			format["arifle_MX%1_khk_F",selectRandom["","C","M"]],
 			format["arifle_SPAR_0%1_%2_F",selectRandom[1,3],selectRandom["blk","khk","snd"]],
 			format["arifle_ARX_%1_F",selectRandom["blk","ghex","hex"]],
-			format["arifle_msbs65_%1_f",selectRandom["black","camo","sand"]] // Contact DLC - Promet 6.5mm
+			format["arifle_msbs65_%1_f",selectRandom["black","camo","sand"]], // Contact DLC - Promet 6.5mm
+			"arifle_MSBS65_UBS_F",
+			"arifle_AK12U_F"
 		],
 		[ // Snpiners
 			"srifle_GM6_ghex_F",
@@ -130,7 +134,8 @@ switch _weaponPool do {
 			"hgun_P07_khk_F", // only two dlc pistols
 			"hgun_Pistol_01_F", // only two dlc pistols
 			"hgun_Rook40_F",
-			"hgun_Pistol_heavy_02_F"
+			"hgun_Pistol_heavy_02_F",
+			"hgun_Pistol_heavy_01_green_F"
 		]
 	]};
 
