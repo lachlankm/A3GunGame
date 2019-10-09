@@ -118,7 +118,7 @@ switch _weaponPool do {
 			format["srifle_DMR_02%1_F",selectRandom["","_camo","_sniper"]],
 			format["srifle_DMR_03%1_F",selectRandom["","_multicam","_khaki","_tan","_woodland"]],
 			format["srifle_DMR_06%1_F",selectRandom["_camo","_olive"]],
-			format["arifle_msbs65_mark_%1_f"selectRandom["black","camo","sand"]]
+			format["arifle_msbs65_mark_%1_f",selectRandom["black","camo","sand"]]
 		],
 		[ // LMGs
 			"LMG_03_F",
