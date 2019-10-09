@@ -16,7 +16,7 @@
 
 	// Vanilla (DLC)
 	case "Tanoa":{[2,6,19]};
-	case "Enoch":{[6,1]};
+	case "Enoch":{[6,4,20]};
 
 	// CUP 
 	case "zargabad";
