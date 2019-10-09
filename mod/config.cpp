@@ -32,6 +32,7 @@ class CfgMissions {
         MISSION_ENTRY(Malden,Vanilla)
         MISSION_ENTRY(Stratis,Vanilla)
         MISSION_ENTRY(Tanoa,Vanilla)
+        MISSION_ENTRY(Enoch,Vanilla)
 
         // CUP
         MISSION_ENTRY(chernarus,CUP)
